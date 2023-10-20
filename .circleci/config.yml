@@ -7,7 +7,7 @@ jobs:
     
     steps:
       -checkout
-      -run : python main.py
+      -run: python main.py
 
   test:
     docker:
