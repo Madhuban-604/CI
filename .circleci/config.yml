@@ -15,7 +15,7 @@ jobs:
     
     steps:
       -checkout
-      -run : python test.py
+      -run: python test.py
   
   deploy:
     docker:
